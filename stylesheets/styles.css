@@ -8788,3 +8788,21 @@ button.close {
     display: none !important;
   }
 }
+/* line 1, ../sass/partials/_intro-section.scss */
+.intro-section {
+  background-color: #0D1635;
+}
+/* line 4, ../sass/partials/_intro-section.scss */
+.intro-section #sky {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+/* line 9, ../sass/partials/_intro-section.scss */
+.intro-section .star {
+  background-image: url("/img/star.svg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  opacity: 0;
+  position: absolute;
+}
