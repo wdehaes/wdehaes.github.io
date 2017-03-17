@@ -30,4 +30,30 @@
     transform: translate(-50%, -50%);
     opacity: 1;
   }
+
+  .elements-explanation-wrapper {
+    position: absolute;
+    left: 5.4%;
+    top: 77.5%;
+    z-index: 100;
+  }
+
+  .elements-explanation {
+    font-family: ConcourseT6;
+    font-size: 32px;
+    color: white;
+    letter-spacing: 0.1px;
+    opacity: 0;
+    span {
+      padding-top: 10px;
+      padding-bottom: 10px;
+      &:first-child {
+        padding-left: 10px;
+      }
+      &:last-child {
+        padding-right: 10px;
+      }
+    }
+
+  }
 }

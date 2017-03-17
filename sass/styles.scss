@@ -1,3 +1,6 @@
+//Import fonts
+@import "partials/fonts";
+
 // Import Bootstrap Compass integration
 @import "bootstrap-compass";
 
@@ -9,5 +12,6 @@
 
 @import "partials/base";
 
+@import "partials/intro";
 @import "partials/elements-section";
 @import "partials/stars-section";

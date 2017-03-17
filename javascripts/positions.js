@@ -848,14 +848,6 @@ var elementsCoordinates =
         type: "text"
     },
     {
-        height: "7.81",
-        left: "35.58",
-        opacity: "0.1",
-        top: "72.92",
-        type: "circle",
-        width: "4.66"
-    },
-    {
         fontsize: "21px",
         left: "35.74",
         letterspacing: "0.26px",

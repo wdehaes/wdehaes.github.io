@@ -1,4 +1,9 @@
 @import "compass";
+//custom font-faces
+@font-face {
+  font-family: "Concourse";
+  src: "/fonts"
+}
 // Font weights
 $light: 100;
 $regular: 400;
@@ -17,3 +22,23 @@ $fixed-line-height: $base-line-height;
 
 // Headings
 $header-font-weight: $bold;
+
+//Color
+$yellow: #FFEA00;
+
+.body {
+  background-color: #0D1635;
+}
+.section {
+  font-family: $base-font-family;
+  font-size: $base-font-size;
+  font-weight: $base-font-weight;
+  line-height: $base-line-height;
+  color: white;
+  width: 100vw;
+  height: 100vh;
+}
+
+.yellow {
+  color: $yellow;
+}
