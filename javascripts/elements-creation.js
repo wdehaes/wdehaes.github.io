@@ -9,7 +9,7 @@ function elementsCreation() {
 
   function fadeOutCircleText(argument) {
     tl
-      .staggerTo(letters, 0.3, {
+      .staggerTo(letters, 0.25, {
         opacity: 0,
         autoAlpha: 0
       }, 0.01)
@@ -24,9 +24,9 @@ function elementsCreation() {
         width: (parseFloat(elementCoord.width) * skyWidth / 100),
         height: (parseFloat(elementCoord.width) * skyWidth / 100),
         left: (parseFloat(elementCoord.left) * skyWidth / 100),
-        top: (parseFloat(elementCoord.top) * skyHeight / 100)
-        // opacity: 0
-      });
+        top: (parseFloat(elementCoord.top) * skyHeight / 100),
+        display: 'none'
+      })
       var bg = $('<div class="elem-bg"/>');
       var symbol = Math.random() > 0.3 ? "H" : "He";
       var txt = $('<p class="elem-text">' + symbol + '</p>');
@@ -46,11 +46,13 @@ function elementsCreation() {
   function init() {
     fadeOutCircleText()
     var elements = elementsCoordinates.map(generateElement);
+    console.log(elements);
     elements.map(
       function(element) {
         sky.append(element);
-        // tl.to(element, 1, {opacity: 1}, 0)
+        console.log(element);
       });
+
   }
 
   init();
