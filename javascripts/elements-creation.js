@@ -4,8 +4,8 @@ function elementsCreation() {
       skyHeight = sky.height(),
       letters = $('#circle-text span').toArray().reverse(),
       he = $('.start-helium'),
-      h = $('.start-hydrogen');
-      tl = new TimelineLite()
+      h = $('.start-hydrogen'),
+      tl = new TimelineLite();
 
   function fadeOutCircleText(argument) {
     tl
@@ -25,7 +25,7 @@ function elementsCreation() {
         height: (parseFloat(elementCoord.width) * skyWidth / 100),
         left: (parseFloat(elementCoord.left) * skyWidth / 100),
         top: (parseFloat(elementCoord.top) * skyHeight / 100),
-        display: 'none'
+        opacity: 0
       })
       var bg = $('<div class="elem-bg"/>');
       var symbol = Math.random() > 0.3 ? "H" : "He";
@@ -46,13 +46,15 @@ function elementsCreation() {
   function init() {
     fadeOutCircleText()
     var elements = elementsCoordinates.map(generateElement);
-    console.log(elements);
     elements.map(
-      function(element) {
+      function(element, index) {
+        $(element).attr('id', index);
         sky.append(element);
-        console.log(element);
-      });
-
+        var diff = random(0, 1.2);
+        tl.to(element, 2, {opacity:1}, 'elements+=' + diff);
+      }
+    );
+    elementsText(1);
   }
 
   init();

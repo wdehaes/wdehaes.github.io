@@ -13,11 +13,11 @@
 }
 @font-face {
   font-family: "Lucida Grande";
-  src: url("/fonts/lucida_grande/Lucida Grande.ttf");
+  src: url("/fonts/lucida_grande/Lucida Grande.ttf") format("truetype");
 }
 @font-face {
   font-family: "Lucida Grande";
-  src: url("/fonts/lucida_grande/Lucida Grande.ttf");
+  src: url("/fonts/lucida_grande/Lucida Grande.ttf") format("truetype");
   font-weight: bold;
 }
 /*!
@@ -8844,23 +8844,24 @@ button.close {
   font-size: 44px;
   font-weight: 400;
   letter-spacing: 0.1px;
+  text-align: center;
 }
 
-/* line 12, ../sass/partials/_intro.scss */
+/* line 13, ../sass/partials/_intro.scss */
 .intro__first {
   text-transform: uppercase;
   font-family: ConcourseC7;
   font-size: 28px;
 }
 
-/* line 18, ../sass/partials/_intro.scss */
+/* line 19, ../sass/partials/_intro.scss */
 .start-top {
   position: absolute;
   top: 7.3%;
   left: 6.7%;
 }
 
-/* line 24, ../sass/partials/_intro.scss */
+/* line 25, ../sass/partials/_intro.scss */
 .start-top__first {
   font-family: ConcourseT6;
   font-size: 48px;
@@ -8868,7 +8869,7 @@ button.close {
   opacity: 0;
 }
 
-/* line 31, ../sass/partials/_intro.scss */
+/* line 32, ../sass/partials/_intro.scss */
 .start-top__second {
   font-family: "Lucida Grande";
   font-weight: bold;
@@ -8876,22 +8877,22 @@ button.close {
   opacity: 0;
 }
 
-/* line 38, ../sass/partials/_intro.scss */
+/* line 39, ../sass/partials/_intro.scss */
 .start-top__second-first {
   font-size: 24px;
 }
 
-/* line 42, ../sass/partials/_intro.scss */
+/* line 43, ../sass/partials/_intro.scss */
 .start-top__second-second {
   font-size: 28px;
 }
 
-/* line 46, ../sass/partials/_intro.scss */
+/* line 47, ../sass/partials/_intro.scss */
 .start-top__second-third {
   font-size: 18px;
 }
 
-/* line 50, ../sass/partials/_intro.scss */
+/* line 51, ../sass/partials/_intro.scss */
 .start-hydrogen {
   position: absolute;
   left: 38.2%;
@@ -8899,7 +8900,7 @@ button.close {
   opacity: 0;
 }
 
-/* line 57, ../sass/partials/_intro.scss */
+/* line 58, ../sass/partials/_intro.scss */
 .start-helium {
   position: absolute;
   left: 41.7%;
@@ -8907,7 +8908,7 @@ button.close {
   opacity: 0;
 }
 
-/* line 63, ../sass/partials/_intro.scss */
+/* line 64, ../sass/partials/_intro.scss */
 .start-bottom {
   position: absolute;
   bottom: 6.8%;
@@ -8915,18 +8916,18 @@ button.close {
   opacity: 0;
 }
 
-/* line 70, ../sass/partials/_intro.scss */
+/* line 71, ../sass/partials/_intro.scss */
 .start-bottom__element {
   font-size: 48px;
   font-family: "Lucida Grande";
   font-weight: bold;
 }
-/* line 75, ../sass/partials/_intro.scss */
+/* line 76, ../sass/partials/_intro.scss */
 .start-bottom__element .percent {
   font-size: 36px;
 }
 
-/* line 80, ../sass/partials/_intro.scss */
+/* line 81, ../sass/partials/_intro.scss */
 #circle-text {
   position: absolute;
   display: block;
@@ -8949,11 +8950,20 @@ button.close {
   height: 100vh;
   position: relative;
 }
-/* line 9, ../sass/partials/_elements-section.scss */
+/* line 10, ../sass/partials/_elements-section.scss */
 .elements-section .elem {
   position: absolute;
+  color: #F0D20C;
 }
-/* line 13, ../sass/partials/_elements-section.scss */
+/* line 15, ../sass/partials/_elements-section.scss */
+.elements-section .atom {
+  position: absolute;
+  color: #F0D20C;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+/* line 23, ../sass/partials/_elements-section.scss */
 .elements-section .elem-bg {
   background-color: #D1D1D1;
   -moz-border-radius: 50%;
@@ -8962,9 +8972,8 @@ button.close {
   width: 100%;
   height: 100%;
 }
-/* line 22, ../sass/partials/_elements-section.scss */
+/* line 32, ../sass/partials/_elements-section.scss */
 .elements-section .elem-text {
-  color: #F0D20C;
   font-family: sans-serif;
   font-size: 20px;
   position: absolute;
@@ -8974,14 +8983,14 @@ button.close {
   transform: translate(-50%, -50%);
   opacity: 1;
 }
-/* line 34, ../sass/partials/_elements-section.scss */
+/* line 43, ../sass/partials/_elements-section.scss */
 .elements-section .elements-explanation-wrapper {
   position: absolute;
   left: 5.4%;
   top: 77.5%;
   z-index: 100;
 }
-/* line 41, ../sass/partials/_elements-section.scss */
+/* line 50, ../sass/partials/_elements-section.scss */
 .elements-section .elements-explanation {
   font-family: ConcourseT6;
   font-size: 36px;
@@ -8990,34 +8999,42 @@ button.close {
   opacity: 0;
   margin-bottom: 20px;
 }
-/* line 48, ../sass/partials/_elements-section.scss */
+/* line 57, ../sass/partials/_elements-section.scss */
 .elements-section .elements-explanation span {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-/* line 51, ../sass/partials/_elements-section.scss */
+/* line 60, ../sass/partials/_elements-section.scss */
 .elements-section .elements-explanation span:first-child {
   padding-left: 15px;
 }
-/* line 54, ../sass/partials/_elements-section.scss */
+/* line 63, ../sass/partials/_elements-section.scss */
 .elements-section .elements-explanation span:last-child {
   padding-right: 15px;
 }
 
+/* line 71, ../sass/partials/_elements-section.scss */
+#proto-text {
+  text-transform: uppercase;
+  position: absolute;
+  display: block;
+  left: 49.92%;
+  top: 14.75%;
+  font-family: ConcourseC7;
+  font-size: 24px;
+  letter-spacing: 0.99px;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  font-size: 20px;
+  color: white;
+  letter-spacing: 2px;
+}
+
 /* line 1, ../sass/partials/_stars-section.scss */
-.stars-section {
-  background-color: #0D1635;
-}
-/* line 4, ../sass/partials/_stars-section.scss */
-.stars-section #star-sky {
-  width: 100vw;
-  height: 100vh;
-  position: relative;
-}
-/* line 10, ../sass/partials/_stars-section.scss */
-.stars-section .star {
+.star {
   background-image: url("/img/star.svg");
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  opacity: 0;
+  position: absolute;
+  display: inline-block;
 }

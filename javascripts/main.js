@@ -11,8 +11,10 @@ $(document).ready(function() {
   var indicator = new WheelIndicator({
     elem: document.querySelector('body'),
     callback: function(e){
-      animationFunctions[animation]();
-      animation+=1;
+      if (animation < animationFunctions.length) {
+        animationFunctions[animation]();
+        animation+=1;
+      }
     }
   });
 
@@ -24,8 +26,8 @@ $(document).ready(function() {
     introToStart,
     startToCircleText,
     elementsCreation,
-    elementsText
-    // starryNight
+    protostar,
+    starryNight
   ]
 
 
@@ -36,5 +38,14 @@ $(document).ready(function() {
   }
 });
 
+  var protoText = $('#proto-text');
+  protoText.circleType({radius: 70, dir:-1});
+
+function randomInt(max, min = 0) {
+  return Math.floor(random(max, min));
+}
+function random(max, min = 0) {
+  return Math.random() * (max - min) + min;
+}
 
 //https://github.com/promo/wheel-indicator
