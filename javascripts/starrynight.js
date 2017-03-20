@@ -25,7 +25,6 @@
         top: yPos,
         opacity: 0,
       });
-      console.log(star);
       return star;
     }
 
