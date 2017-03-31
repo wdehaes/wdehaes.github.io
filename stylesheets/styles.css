@@ -388,8 +388,8 @@ th {
 }
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url(/fonts/bootstrap/glyphicons-halflings-regular.eot?1488655110);
-  src: url(/fonts/bootstrap/glyphicons-halflings-regular.eot?&1488655110#iefix) format("embedded-opentype"), url(/fonts/bootstrap/glyphicons-halflings-regular.woff2?1488655110) format("woff2"), url(/fonts/bootstrap/glyphicons-halflings-regular.woff?1488655110) format("woff"), url(/fonts/bootstrap/glyphicons-halflings-regular.ttf?1488655110) format("truetype"), url(/fonts/bootstrap/glyphicons-halflings-regular.svg?1488655110#glyphicons_halflingsregular) format("svg");
+  src: url(/fonts/bootstrap/glyphicons-halflings-regular.eot?1490366284);
+  src: url(/fonts/bootstrap/glyphicons-halflings-regular.eot?&1490366284#iefix) format("embedded-opentype"), url(/fonts/bootstrap/glyphicons-halflings-regular.woff2?1490366284) format("woff2"), url(/fonts/bootstrap/glyphicons-halflings-regular.woff?1490366284) format("woff"), url(/fonts/bootstrap/glyphicons-halflings-regular.ttf?1490366284) format("truetype"), url(/fonts/bootstrap/glyphicons-halflings-regular.svg?1490366284#glyphicons_halflingsregular) format("svg");
 }
 /* line 24, ../../../.rbenv/versions/2.2.5/lib/ruby/gems/2.2.0/gems/bootstrap-sass-3.3.7/assets/stylesheets/bootstrap/_glyphicons.scss */
 .glyphicon {
@@ -8813,12 +8813,7 @@ button.close {
   font-family: "Concourse";
   src: "/fonts";
 }
-/* line 29, ../sass/partials/_base.scss */
-.body {
-  background-color: #0D1635;
-}
-
-/* line 32, ../sass/partials/_base.scss */
+/* line 53, ../sass/partials/_base.scss */
 .section {
   font-family: sans-serif;
   font-size: 13px;
@@ -8827,9 +8822,10 @@ button.close {
   color: white;
   width: 100vw;
   height: 100vh;
+  background-color: #0D1635;
 }
 
-/* line 42, ../sass/partials/_base.scss */
+/* line 64, ../sass/partials/_base.scss */
 .yellow {
   color: #FFEA00;
 }
@@ -9037,4 +9033,18 @@ button.close {
   background-repeat: no-repeat;
   position: absolute;
   display: inline-block;
+}
+
+/* line 1, ../sass/partials/_star.scss */
+.start-star {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  display: block;
+  -ms-transform: translate(-50%, -50%);
+  /* IE 9 */
+  -webkit-transform: translate(-50%, -50%);
+  /* Safari */
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
 }

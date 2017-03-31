@@ -26,8 +26,29 @@ $header-font-weight: $bold;
 //Color
 $yellow: #FFEA00;
 
+@mixin translateX($x) {
+    -ms-transform: translate($x,0); /* IE 9 */
+    -webkit-transform: translate($x,0); /* Safari */
+    -o-transform: translate($x, 0);
+    transform: translate($x,0);
+}
+
+@mixin translateY($y) {
+    -ms-transform: translate(0,$y); /* IE 9 */
+    -webkit-transform: translate(0,$y); /* Safari */
+    -o-transform: translate(0, $y);
+    transform: translate(0,$y);
+}
+
+@mixin translate($x, $y) {
+    -ms-transform: translate($x,$y); /* IE 9 */
+    -webkit-transform: translate($x,$y); /* Safari */
+    -o-transform: translate($x, $y);
+    transform: translate($x,$y);
+}
+
 .body {
-  background-color: #0D1635;
+
 }
 .section {
   font-family: $base-font-family;
@@ -37,6 +58,7 @@ $yellow: #FFEA00;
   color: white;
   width: 100vw;
   height: 100vh;
+  background-color: #0D1635;
 }
 
 .yellow {

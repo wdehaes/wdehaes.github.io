@@ -27,7 +27,8 @@ $(document).ready(function() {
     startToCircleText,
     elementsCreation,
     protostar,
-    starryNight
+    starryNight,
+    centralStar
   ]
 
 
@@ -36,16 +37,20 @@ $(document).ready(function() {
   for (var i = 22; i <= 43; i++) {
     $('#circle-text .char' + i).addClass('yellow');
   }
-});
-
   var protoText = $('#proto-text');
   protoText.circleType({radius: 70, dir:-1});
+});
 
 function randomInt(max, min = 0) {
   return Math.floor(random(max, min));
 }
+
 function random(max, min = 0) {
   return Math.random() * (max - min) + min;
 }
 
-//https://github.com/promo/wheel-indicator
+function importSVG(name) {
+  $.get('/img/' + name + '.svg', function(data) {
+    $('#'+name).replaceWith($(data).contents());
+  });
+}
