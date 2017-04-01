@@ -1,14 +1,8 @@
-function centralStar() {
+function centralStar(importFunction) {
 
   function starStart() {
     var star = $('.star-start');
     tl.to(star, 1, {opacity: 1});
-  }
-  function importSVG(svgName, target) {
-    $.get('/img/' + svgName + '.svg', function(data) {
-      target.append($(data).contents());
-      starStart();
-    });
   }
 
   var tl, sky;
@@ -24,7 +18,7 @@ function centralStar() {
     emptyCanvas();
 
     tl = new TimelineLite();
-    importSVG('star-start', sky);
+    importFunction('star-start', sky, starStart);
   }
 
   init();

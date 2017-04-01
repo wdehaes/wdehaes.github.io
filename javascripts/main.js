@@ -12,7 +12,8 @@ $(document).ready(function() {
     elem: document.querySelector('body'),
     callback: function(e){
       if (animation < animationFunctions.length) {
-        animationFunctions[animation]();
+        var currentFunction = animationFunctions[animation];
+        currentFunction.func(currentFunction.argument);
         animation+=1;
       }
     }
@@ -23,12 +24,12 @@ $(document).ready(function() {
   var animation = 0;
 
   var animationFunctions = [
-    introToStart,
-    startToCircleText,
-    elementsCreation,
-    protostar,
-    starryNight,
-    centralStar
+    { func: introToStart},
+    { func: startToCircleText},
+    { func: elementsCreation},
+    { func: protostar},
+    { func: starryNight},
+    { func: centralStar, argument: importSVG }
   ];
 
 
@@ -47,4 +48,11 @@ function randomInt(max, min = 0) {
 
 function random(max, min = 0) {
   return Math.random() * (max - min) + min;
+}
+
+function importSVG(svgName, target, callback) {
+  $.get('/img/' + svgName + '.svg', function(data) {
+    target.append($(data).contents());
+    callback();
+  });
 }
