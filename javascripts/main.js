@@ -29,7 +29,7 @@ $(document).ready(function() {
     protostar,
     starryNight,
     centralStar
-  ]
+  ];
 
 
   var circleText = $('#circle-text');
@@ -49,8 +49,8 @@ function random(max, min = 0) {
   return Math.random() * (max - min) + min;
 }
 
-function importSVG(name) {
-  $.get('/img/' + name + '.svg', function(data) {
-    $('#'+name).replaceWith($(data).contents());
+function importSVG(svgName, target) {
+  $.get('/img/' + svgName + '.svg', function(data) {
+    target.append($(data).contents());
   });
 }

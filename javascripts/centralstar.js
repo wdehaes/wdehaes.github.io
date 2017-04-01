@@ -9,7 +9,7 @@ function centralStar() {
   }
 
   function starStart() {
-    importSVG('star-start');
+    importSVG('star-start', sky);
   }
   function init() {
     sky = $('#elem-sky');
