@@ -1,11 +1,18 @@
-function centralStar(importFunction) {
+function centralStarStart(importFunction) {
+  var sky, star;
 
   function starStart() {
-    var star = $('.star-start');
-    tl.to(star, 1, {opacity: 1});
+    star = $('.star-start');
+    new TweenLite.to(star, 2, {opacity: 1, onComplete: rotate});
   }
 
-  var tl, sky;
+  function rotate() {
+    var starText = $('.star-text');
+    var tlRotate = new TimelineMax({repeat:-1});
+    tlRotate.to(starText, 2, {rotation:180, svgOrigin:"197 187"})
+            .to(starText, 2, {rotation: 0, svgOrigin:"197 187"});
+  }
+
   function emptyCanvas() {
     sky.empty();
     sky.css({
@@ -16,10 +23,16 @@ function centralStar(importFunction) {
   function init() {
     sky = $('#elem-sky');
     emptyCanvas();
-
-    tl = new TimelineLite();
     importFunction('star-start', sky, starStart);
   }
 
   init();
+}
+
+function centralStarInitiate() {
+  sky.append(explanation);
+}
+
+function centralStarTextChange(n) {
+  return textArray(n);
 }

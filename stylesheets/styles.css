@@ -259,3 +259,10 @@
   -o-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
+
+/* line 10, ../sass/partials/_star.scss */
+.star-explanation {
+  position: absolute;
+  top: 6.64%;
+  left: 4.45%;
+}

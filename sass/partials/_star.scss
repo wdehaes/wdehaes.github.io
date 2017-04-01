@@ -6,3 +6,9 @@
   display: block;
   @include translate(-50%,-50%);
 }
+
+.star-explanation {
+  position: absolute;
+  top: 6.64%;
+  left: 4.45%; 
+}
