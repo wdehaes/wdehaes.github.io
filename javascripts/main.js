@@ -48,9 +48,3 @@ function randomInt(max, min = 0) {
 function random(max, min = 0) {
   return Math.random() * (max - min) + min;
 }
-
-function importSVG(svgName, target) {
-  $.get('/img/' + svgName + '.svg', function(data) {
-    target.append($(data).contents());
-  });
-}

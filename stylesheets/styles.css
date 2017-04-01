@@ -246,8 +246,9 @@
 }
 
 /* line 1, ../sass/partials/_star.scss */
-.start-star {
+.star-start {
   position: absolute;
+  opacity: 0;
   top: 50%;
   left: 50%;
   display: block;
