@@ -5,12 +5,6 @@ $(document).ready(function() {
   var bottom = $('.start-bottom');
   var he = $('.start-helium');
   var h = $('.start-hydrogen');
-  var explanation = '<div class="star-explanation"></div>';
-  var textArray = [
-    '<p>A star’s external <span class="yellow">gravity</span></p><p>and internal core <span class="yellow">energy</span> put pressure on one another</p>',
-    '<p>resulting in a supernova</p><p>and one of <span class="yellow">two</span> endothermic processes</p>',
-    '<p><span class="yellow">one</span> during a massive explosion</p>'
-    ];
 
   introOpening();
 
@@ -35,7 +29,8 @@ $(document).ready(function() {
     // { func: elementsCreation},
     // { func: protostar},
     // { func: starryNight},
-    { func: centralStarStart, argument: importSVG }
+    { func: centralStarStart, argument: importSVG },
+    { func: centralStarInitiate}
   ];
 
 

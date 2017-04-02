@@ -1,5 +1,5 @@
 function centralStarStart(importFunction) {
-  var sky, star;
+  var sky, star, topText;
 
   function starStart() {
     star = $('.star-start');
@@ -30,9 +30,19 @@ function centralStarStart(importFunction) {
 }
 
 function centralStarInitiate() {
+  console.log('test');
+  var sky = $('#elem-sky');
+  var explanation = $('<div class="star-explanation"></div>');
+  explanation.append(centralStarTextChange(0));
   sky.append(explanation);
+
 }
 
 function centralStarTextChange(n) {
-  return textArray(n);
+  var textArray = [
+    '<p>A star’s external <span class="yellow">gravity</span></p><p>and internal core <span class="yellow">energy</span> put pressure on one another</p>',
+    '<p>resulting in a supernova</p><p>and one of <span class="yellow">two</span> endothermic processes</p>',
+    '<p><span class="yellow">one</span> during a massive explosion</p>'
+    ];
+  return textArray[n];
 }
