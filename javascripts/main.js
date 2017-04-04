@@ -24,13 +24,13 @@ $(document).ready(function() {
   var animation = 0;
 
   var animationFunctions = [
-    // { func: introToStart},
-    // { func: startToCircleText},
-    // { func: elementsCreation},
-    // { func: protostar},
-    // { func: starryNight},
-    { func: centralStarStart, argument: importSVG },
-    { func: centralStarInitiate}
+    { func: introToStart},
+    { func: startToCircleText},
+    { func: elementsCreation},
+    { func: protostar},
+    { func: starryNight}
+    // { func: centralStarStart, argument: importSVG },
+    // { func: centralStarInitiate}
   ];
 
 

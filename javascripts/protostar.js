@@ -1,10 +1,5 @@
 function protostar() {
 
-  function toCenter(element) {
-      var sky = $('#elem-sky'),
-          skyWidth = sky.width(),
-          skyHeight = sky.height();
-  }
   var tl_proto = new TimelineLite({onComplete: oneStar()}),
       elements = $('.elem').toArray();
   elements.map(function(element) {

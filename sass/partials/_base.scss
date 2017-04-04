@@ -25,6 +25,8 @@ $header-font-weight: $bold;
 
 //Color
 $yellow: #FFEA00;
+$blue: #0D1635;
+$oker: #DFC831;
 
 @mixin translateX($x) {
     -ms-transform: translate($x,0); /* IE 9 */
@@ -58,9 +60,13 @@ $yellow: #FFEA00;
   color: white;
   width: 100vw;
   height: 100vh;
-  background-color: #0D1635;
+  background-color: $blue;
 }
 
 .yellow {
   color: $yellow;
+}
+
+.oker {
+  color: $oker;
 }

@@ -7,10 +7,13 @@ function centralStarStart(importFunction) {
   }
 
   function rotate() {
-    var starText = $('.star-text');
+    var gravity = $('#gravity');
+    var coreEnergy = $('#core-energy');
     var tlRotate = new TimelineMax({repeat:-1});
-    tlRotate.to(starText, 2, {rotation:180, svgOrigin:"197 187"})
-            .to(starText, 2, {rotation: 0, svgOrigin:"197 187"});
+    tlRotate.to(gravity, 2, {rotation:180, svgOrigin:"197 187"})
+            .to(gravity, 2, {rotation: 0, svgOrigin:"197 187"})
+            .to(coreEnergy, 2, {rotation: 180, svgOrigin:"197 187"}, "-=4")
+            .to(coreEnergy, 2, {rotation: 0, svgOrigin:"197 187"}, "-=2");
   }
 
   function emptyCanvas() {
@@ -30,19 +33,19 @@ function centralStarStart(importFunction) {
 }
 
 function centralStarInitiate() {
-  console.log('test');
   var sky = $('#elem-sky');
   var explanation = $('<div class="star-explanation"></div>');
-  explanation.append(centralStarTextChange(0));
+  centralStarTextChange(0, explanation);
   sky.append(explanation);
 
 }
 
-function centralStarTextChange(n) {
+function centralStarTextChange(n, target) {
   var textArray = [
-    '<p>A star’s external <span class="yellow">gravity</span></p><p>and internal core <span class="yellow">energy</span> put pressure on one another</p>',
-    '<p>resulting in a supernova</p><p>and one of <span class="yellow">two</span> endothermic processes</p>',
-    '<p><span class="yellow">one</span> during a massive explosion</p>'
+    '<p>A star’s external <span class="oker">gravity</span></p><p>and internal core <span class="oker">energy</span> put pressure on one another</p>',
+    '<p>resulting in a supernova</p><p>and one of <span class="oker">two</span> endothermic processes</p>',
+    '<p><span class="oker">one</span> during a massive explosion</p>'
     ];
-  return textArray[n];
+    target.append(textArray[n]);
+
 }
