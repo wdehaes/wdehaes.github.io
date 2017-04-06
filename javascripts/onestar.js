@@ -4,8 +4,6 @@ function oneStar() {
       skyWidth = sky.width(),
       skyHeight = sky.height(),
       tl_one = new TimelineLite({delay: 2, onComplete: init()});
-  var protoText = $('#proto-text');
-  tl_one.to(protoText, 1, { opacity: 0, autoAlpha: 0}, 'disappear');
   var h = star.find('.elem-text');
   var bg = star.find('.elem-bg');
   tl_one.to(h, 1, { opacity: 0, autoAlpha: 0}, 'disappear');
@@ -25,7 +23,7 @@ function oneStar() {
         top: (parseFloat(nucleus.top) * skyHeight / 100 + skyHeight / 2 - starHeight / 1.7 * 6),
         background: bgColor,
         opacity: 0
-      })
+      });
       return element;
     }
   }
