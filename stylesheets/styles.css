@@ -129,13 +129,13 @@
 
 /* line 71, ../sass/partials/_intro.scss */
 .start-bottom__element {
-  font-size: 48px;
+  font-size: 36px;
   font-family: "Lucida Grande";
   font-weight: bold;
 }
 /* line 76, ../sass/partials/_intro.scss */
 .start-bottom__element .percent {
-  font-size: 36px;
+  font-size: 28px;
 }
 
 /* line 81, ../sass/partials/_intro.scss */
@@ -223,6 +223,15 @@
 /* line 64, ../sass/partials/_elements-section.scss */
 .elements-section .elements-explanation span:last-child {
   padding-right: 15px;
+}
+/* line 71, ../sass/partials/_elements-section.scss */
+.elements-section .protostar {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  width: 9%;
 }
 
 /* line 1, ../sass/partials/_stars-section.scss */

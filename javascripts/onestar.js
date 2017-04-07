@@ -1,11 +1,15 @@
 function oneStar() {
-  var star = $('.elem#20'),
+  var star = $('.protostar'),
       sky = $('#elem-sky'),
       skyWidth = sky.width(),
       skyHeight = sky.height(),
       tl_one = new TimelineLite({delay: 2, onComplete: init()});
-  var h = star.find('.elem-text');
-  var bg = star.find('.elem-bg');
+  var protoText = $('#protostar-text');
+  tl_one.to(protoText, 1, { opacity: 0, autoAlpha: 0}, 'disappear');
+  var h = $('#protostar-h');
+  console.log(h);
+  var bg = $('#protostar-bg');
+  console.log(bg);
   tl_one.to(h, 1, { opacity: 0, autoAlpha: 0}, 'disappear');
   tl_one.to(star, 3, {opacity: 1, scale: 6.3});
   tl_one.to(bg, 2, {background: '#CB5822', opacity: 1}, "-=2");
