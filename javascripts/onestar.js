@@ -20,6 +20,7 @@ function oneStar(importFunction) {
   function elementsMove() {
     tl_two = new TimelineLite({delay: 4 });
     var boundingRect = bg[0].getBoundingClientRect();
+    console.log(boundingRect);
     radius = boundingRect.width/2 * scale;
     protostarTop = boundingRect.top;
     protostarLeft = boundingRect.left;

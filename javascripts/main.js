@@ -11,12 +11,22 @@ $(document).ready(function() {
     elem: document.querySelector('body'),
     callback: function(e){
       if (animation < animationFunctions.length) {
+        pauseScroll();
         var currentFunction = animationFunctions[animation];
         currentFunction.func(currentFunction.argument);
         animation+=1;
       }
     }
   });
+
+  function restartScroll() {
+    indicator.turnOn();
+  }
+
+  function pauseScroll() {
+    indicator.turnOff();
+    setTimeout(restartScroll,2000);
+  }
 
   //The method call
   indicator.getOption('preventMouse'); // true
