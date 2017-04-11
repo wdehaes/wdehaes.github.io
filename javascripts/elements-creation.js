@@ -14,7 +14,7 @@ function elementsCreation() {
         autoAlpha: 0
       }, 0.01)
       .to(he, 1, { opacity: 0, ease: Power2.easeOut, autoAlpha: 0 }, 0.2)
-      .to(h, 1, { opacity: 0, ease: Power2.easeOut, autoAlpha: 0 }, 0.2)
+      .to(h, 1, { opacity: 0, ease: Power2.easeOut, autoAlpha: 0 }, 0.2);
   }
 
   function generateElement(elementCoord) {
@@ -25,8 +25,9 @@ function elementsCreation() {
         height: (parseFloat(elementCoord.width) * skyWidth / 100),
         left: (parseFloat(elementCoord.left) * skyWidth / 100),
         top: (parseFloat(elementCoord.top) * skyHeight / 100),
+        "z-index": 10,
         opacity: 0
-      })
+      });
       var bg = $('<div class="elem-bg"/>');
       var symbol = Math.random() > 0.3 ? "H" : "He";
       var txt = $('<p class="elem-text">' + symbol + '</p>');
@@ -44,7 +45,7 @@ function elementsCreation() {
   }
 
   function init() {
-    fadeOutCircleText()
+    fadeOutCircleText();
     var elements = elementsCoordinates.map(generateElement);
     elements.map(
       function(element, index) {

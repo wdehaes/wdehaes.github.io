@@ -1,5 +1,4 @@
 $(document).ready(function() {
-  var intro = $('.intro');
   var topFirst = $('.start-top__first');
   var topSecond = $('.start-top__second');
   var bottom = $('.start-bottom');
@@ -27,12 +26,11 @@ $(document).ready(function() {
     { func: introToStart},
     { func: startToCircleText},
     { func: elementsCreation},
-    { func: protostar},
+    { func: protostar, argument: importSVG},
     { func: starryNight}
     // { func: centralStarStart, argument: importSVG },
     // { func: centralStarInitiate}
   ];
-
 
   var circleText = $('#circle-text');
   circleText.circleType({radius: 220, dir:-1});
