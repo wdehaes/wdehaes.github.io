@@ -39,7 +39,8 @@ $(document).ready(function() {
     // { func: protostar, argument: importSVG},
     // { func: starryNight}
     { func: centralStarStart, argument: importSVG },
-    { func: centralStarInitiate}
+    { func: centralStarInitiate},
+    { func: centralStarSupernova}
   ];
 
   var circleText = $('#circle-text');
