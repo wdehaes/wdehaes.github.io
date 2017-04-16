@@ -249,7 +249,7 @@ p {
 }
 
 /* line 1, ../sass/partials/_star.scss */
-.star-start {
+.star-svg {
   position: absolute;
   opacity: 0;
   top: 50%;

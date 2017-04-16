@@ -40,7 +40,8 @@ $(document).ready(function() {
     // { func: starryNight}
     { func: centralStarStart, argument: importSVG },
     { func: centralStarInitiate},
-    { func: centralStarSupernova}
+    { func: centralStarSupernova},
+    { func: centralStarOne}
   ];
 
   var circleText = $('#circle-text');

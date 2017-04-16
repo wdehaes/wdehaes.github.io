@@ -2,7 +2,7 @@ function centralStarStart(importFunction) {
   var sky, star, topText;
 
   function starStart() {
-    star = $('.star-start');
+    star = $('.star-svg');
     new TweenLite.to(star, 2, {opacity: 1, onComplete: rotate});
   }
 
@@ -43,10 +43,19 @@ function centralStarSupernova() {
   var explanation = $('.star-explanation');
   var gravity = $('#gravity');
   var coreEnergy = $('#core-energy');
+  var arrows = $('#arrows');
   TweenLite.to(gravity, 2, {opacity: 0, autoAlpha: 0});
   TweenLite.to(coreEnergy, 2, {opacity: 0, autoAlpha: 0});
+  TweenLite.to(arrows, 2, {opacity: 0, autoAlpha: 0});
   TweenLite.to(explanation, 2, {opacity:0, onComplete: function() {
     centralStarTextChange(1, explanation);
+  }});
+}
+
+function centralStarOne() {
+  var explanation = $('.star-explanation');
+  TweenLite.to(explanation, 2, {opacity: 0, onComplete: function() {
+    centralStarTextChange(2, explanation);
   }});
 }
  
@@ -59,5 +68,4 @@ function centralStarTextChange(n, target) {
     target.empty();
     target.append(textArray[n]);
     TweenLite.to(target, 2, {opacity: 1});
-
 }
