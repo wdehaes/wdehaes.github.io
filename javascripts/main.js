@@ -33,15 +33,17 @@ $(document).ready(function() {
   var animation = 0;
 
   var animationFunctions = [
-    // { func: introToStart},
-    // { func: startToCircleText},
-    // { func: elementsCreation},
-    // { func: protostar, argument: importSVG},
-    // { func: starryNight}
+    { func: introToStart},
+    { func: startToCircleText},
+    { func: elementsCreation},
+    { func: protostar, argument: importSVG},
+    { func: starryNight},
     { func: centralStarStart, argument: importSVG },
     { func: centralStarInitiate},
     { func: centralStarSupernova},
-    { func: centralStarOne}
+    { func: centralStarOne},
+    { func: centralStarSwitch, argument: [importSVG, 'star-start', 'star-outer-collapse']},
+    { func: centralStarSwitch, argument: [importSVG, 'star-outer-collapse', 'star-inner-expands']}
   ];
 
   var circleText = $('#circle-text');

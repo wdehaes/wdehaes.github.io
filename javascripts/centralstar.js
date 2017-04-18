@@ -69,3 +69,18 @@ function centralStarTextChange(n, target) {
     target.append(textArray[n]);
     TweenLite.to(target, 2, {opacity: 1});
 }
+
+function centralStarSwitch(argument) {
+  var importFunction = argument[0];
+  var oldStarName = argument[1];
+  var newStarName = argument[2];
+  var sky = $('#elem-sky');
+  var oldStar = $('#' + oldStarName + '-svg');
+  TweenLite.to(oldStar, 1, {opacity: 0, autoAlpha: 0}, function() {
+    oldStar.remove();
+  });
+  importFunction(newStarName, sky, function() {
+    var newStar = $('#'+ newStarName + '-svg');
+    TweenLite.to(newStar, 1, {opacity: 1});
+  });
+}
