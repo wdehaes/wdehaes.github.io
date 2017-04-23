@@ -10,6 +10,7 @@ $(document).ready(function() {
   var indicator = new WheelIndicator({
     elem: document.querySelector('body'),
     callback: function(e){
+
       if (animation < animationFunctions.length) {
         pauseScroll();
         var currentFunction = animationFunctions[animation];
@@ -30,8 +31,10 @@ $(document).ready(function() {
 
   //The method call
   indicator.getOption('preventMouse'); // true
+  //Disable scrolling
+  $('body').bind('touchmove', function(e){e.preventDefault()});
+  //loop through different animation functions
   var animation = 0;
-
   var animationFunctions = [
     { func: introToStart},
     { func: startToCircleText},

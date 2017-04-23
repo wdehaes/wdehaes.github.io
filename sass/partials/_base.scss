@@ -49,6 +49,11 @@ $oker: #DFC831;
     transform: translate($x,$y);
 }
 
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
 p {
   margin: 0 0 10px;
 }

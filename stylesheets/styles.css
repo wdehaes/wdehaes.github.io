@@ -24,11 +24,17 @@
   src: "/fonts";
 }
 /* line 52, ../sass/partials/_base.scss */
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
+/* line 57, ../sass/partials/_base.scss */
 p {
   margin: 0 0 10px;
 }
 
-/* line 56, ../sass/partials/_base.scss */
+/* line 61, ../sass/partials/_base.scss */
 .section {
   font-family: sans-serif;
   font-size: 13px;
@@ -40,12 +46,12 @@ p {
   background-color: #0D1635;
 }
 
-/* line 67, ../sass/partials/_base.scss */
+/* line 72, ../sass/partials/_base.scss */
 .yellow {
   color: #FFEA00;
 }
 
-/* line 71, ../sass/partials/_base.scss */
+/* line 76, ../sass/partials/_base.scss */
 .oker {
   color: #DFC831;
 }
