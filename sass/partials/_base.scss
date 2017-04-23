@@ -49,15 +49,13 @@ $oker: #DFC831;
     transform: translate($x,$y);
 }
 
-body {
-  height: 100%;
-  overflow: hidden;
-}
-
 p {
   margin: 0 0 10px;
 }
 
+html {
+  background-color: $blue;
+}
 .section {
   font-family: $base-font-family;
   font-size: $base-font-size;
