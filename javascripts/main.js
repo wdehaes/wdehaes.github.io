@@ -31,22 +31,22 @@ $(document).ready(function() {
 
   //The method call
   indicator.getOption('preventMouse'); // true
-  //Disable scrolling
-  $('body').bind('touchmove', function(e){e.preventDefault()});
+  //Disable scrolling on touch
+  $('body').bind('touchmove', function(e){e.preventDefault();});
   //loop through different animation functions
   var animation = 0;
   var animationFunctions = [
     { func: introToStart},
     { func: startToCircleText},
-    { func: elementsCreation},
-    { func: protostar, argument: importSVG},
-    { func: starryNight},
+    { func: elementsCreation, argument: importSVG},
+    { func: oneStar, argument: importSVG},
+    // { func: starryNight},
     { func: centralStarStart, argument: importSVG },
     { func: centralStarInitiate},
     { func: centralStarSupernova},
     { func: centralStarOne},
-    { func: centralStarSwitch, argument: [importSVG, 'star-start', 'star-outer-collapse']},
-    { func: centralStarSwitch, argument: [importSVG, 'star-outer-collapse', 'star-inner-expands']}
+    { func: centralStarSwitch, argument: [importSVG, 'star-start', 'star-outer-collapse']}
+    // { func: centralStarSwitch, argument: [importSVG, 'star-outer-collapse', 'star-inner-expands']}
   ];
 
   var circleText = $('#circle-text');
@@ -58,17 +58,21 @@ $(document).ready(function() {
   protoText.circleType({radius: 70, dir:-1});
 });
 
-function randomInt(max, min = 0) {
+function randomInt(max, min) {
+  if (min === undefined) { min = 0;}
   return Math.floor(random(max, min));
 }
 
-function random(max, min = 0) {
+function random(max, min) {
+  if (min === undefined) { min = 0;}
   return Math.random() * (max - min) + min;
 }
 
 function importSVG(svgName, target, callback) {
   $.get('/img/' + svgName + '.svg', function(data) {
     target.append($(data).contents());
-    callback();
+    if (callback !== undefined) {
+      callback();
+    }
   });
 }

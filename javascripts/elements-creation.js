@@ -1,4 +1,4 @@
-function elementsCreation() {
+function elementsCreation(importFunction) {
   var sky = $('#elem-sky'),
       skyWidth = sky.width(),
       skyHeight = sky.height(),
@@ -55,6 +55,7 @@ function elementsCreation() {
         tl.to(element, 2, {opacity:1}, 'elements+=' + diff);
       }
     );
+    importFunction('protostar', sky);
     elementsText(1);
   }
 

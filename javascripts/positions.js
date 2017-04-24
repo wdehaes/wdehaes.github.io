@@ -489,14 +489,6 @@ var elementsCoordinates =
         width: "3.72"
     },
     {
-        height: "6.76",
-        left: "47.91",
-        opacity: "0.24",
-        top: "40.89",
-        type: "circle",
-        width: "4.03"
-    },
-    {
         height: "6.11",
         left: "26.67",
         opacity: "0.05",

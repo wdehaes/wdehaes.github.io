@@ -9,11 +9,12 @@ function centralStarStart(importFunction) {
   function rotate() {
     var gravity = $('#gravity');
     var coreEnergy = $('#core-energy');
-    var tlRotate = new TimelineMax({repeat:-1});
-    tlRotate.to(gravity, 2, {rotation:180, svgOrigin:"197 187"})
-            .to(gravity, 2, {rotation: 0, svgOrigin:"197 187"})
-            .to(coreEnergy, 2, {rotation: 180, svgOrigin:"197 187"}, "-=4")
-            .to(coreEnergy, 2, {rotation: 0, svgOrigin:"197 187"}, "-=2");
+    var tlRotateGravity = new TimelineMax({repeat:-1});
+    tlRotateGravity.to(gravity, 2, {rotation:180, svgOrigin:"197 187"})
+            .to(gravity, 2, {rotation: 0, svgOrigin:"197 187"});
+    var tlRotateCoreEnergy = new TimelineMax({repeat:-1, delay: 1});
+    tlRotateCoreEnergy.to(coreEnergy, 2, {rotation: 180, svgOrigin:"197 187"})
+            .to(coreEnergy, 2, {rotation: 0, svgOrigin:"197 187"});
   }
 
   function emptyCanvas() {
