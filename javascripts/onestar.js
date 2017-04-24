@@ -14,17 +14,34 @@ function oneStar(importFunction) {
     var elementWidth = nucleus.width * radius;
     var elementLeft = protostarCenterX + radius * parseFloat(nucleus.xPos);
     var elementTop = protostarCenterY + radius * parseFloat(nucleus.yPos);
-    tl_two.to(elementText, 1, { opacity: 0, autoAlpha: 0}, "elements")
-          .to(elementBackground, 2, {css: {background: bgColor}}, "elements")
-          .to(element, 2, {css: {width: elementWidth, height: elementWidth, top: elementTop, left: elementLeft}}, "elements");
+    tl_two.to(elementText, 1, { opacity: 0, autoAlpha: 0}, "moveElementAwayFromCenter+=2")
+          .to(elementBackground, 2, {css: {background: bgColor}}, "moveElementAwayFromCenter+=2")
+          .to(element, 2, {css: {width: elementWidth, height: elementWidth, top: elementTop, left: elementLeft}}, "moveElementAwayFromCenter+=2");
+  }
+
+  function moveElementAwayFromCenter(element) {
+    var distX = 0.10 * skyWidth;
+    var distY = 0.10 * skyHeight;
+    var topSign, leftSign;
+    if (element.offsetTop < protostarCenterY) {
+      topSign = "-=";
+    } else {
+      topSign = "+=";
+    }
+    if (element.offsetLeft < protostarCenterX) {
+      leftSign = "-=";
+    } else {
+      leftSign = "+=";
+    }
+    tl_two.to(element, 2, {css: {top: topSign + distY + "px", left: leftSign + distX + "px"}}, "moveElementAwayFromCenter");
+
   }
 
   // Move all of the elements
-  function elementsMove() {
-    tl_two = new TimelineLite({delay: 4 });
+  function elementsMove(movementFunction) {
     var sourceElements = $('.elem');
     sourceElements.map(function(index, element) {
-      moveElementToCenter(element);
+      movementFunction(element);
     });
     elementsText(1);
   }
@@ -49,13 +66,17 @@ function oneStar(importFunction) {
     skyWidth = sky.width();
     skyHeight = sky.height();
     determineCoordinates();
-    tl_one = new TimelineLite({delay: 2, onComplete: elementsMove()});
+    tl_one = new TimelineLite({delay: 2});
     var protoText = $('#protostar-text');
     tl_one.to(protoText, 1, { opacity: 0, autoAlpha: 0}, 'disappear');
     var h = $('#protostar-h');
     tl_one.to(h, 1, { opacity: 0, autoAlpha: 0}, 'disappear');
     tl_one.to(star, 3, {opacity: 1, scale: scale, transformOrigin: "50% 50%"});
     tl_one.to(bg, 2, {background: '#CB5822', opacity: 1}, "-=2");
+
+    tl_two = new TimelineLite({delay: 4 });
+    elementsMove(moveElementToCenter);
+    elementsMove(moveElementAwayFromCenter);
   }
 
   init();
