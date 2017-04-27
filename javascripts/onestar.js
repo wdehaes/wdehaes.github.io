@@ -20,20 +20,22 @@ function oneStar(importFunction) {
   }
 
   function moveElementAwayFromCenter(element) {
-    var distX = 0.10 * skyWidth;
-    var distY = 0.10 * skyHeight;
+    var diffX = (element.offsetLeft - protostarCenterX);
+    var diffY = (element.offsetTop - protostarCenterY);
+    var distX = 0.10 * (skyWidth - Math.abs(diffX));
+    var distY = 0.10 * (skyHeight - Math.abs(diffY));
     var topSign, leftSign;
-    if (element.offsetTop < protostarCenterY) {
+    if (diffY < 0) {
       topSign = "-=";
     } else {
       topSign = "+=";
     }
-    if (element.offsetLeft < protostarCenterX) {
+    if (diffX < 0) {
       leftSign = "-=";
     } else {
       leftSign = "+=";
     }
-    tl_two.to(element, 2, {css: {top: topSign + distY + "px", left: leftSign + distX + "px"}}, "moveElementAwayFromCenter");
+    tl_two.to(element, 3, {css: {top: topSign + distY + "px", left: leftSign + distX + "px"}}, "moveElementAwayFromCenter");
 
   }
 
@@ -74,7 +76,7 @@ function oneStar(importFunction) {
     tl_one.to(star, 3, {opacity: 1, scale: scale, transformOrigin: "50% 50%"});
     tl_one.to(bg, 2, {background: '#CB5822', opacity: 1}, "-=2");
 
-    tl_two = new TimelineLite({delay: 4 });
+    tl_two = new TimelineLite({delay: 3 });
     elementsMove(moveElementToCenter);
     elementsMove(moveElementAwayFromCenter);
   }

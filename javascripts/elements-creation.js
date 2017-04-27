@@ -55,8 +55,10 @@ function elementsCreation(importFunction) {
         tl.to(element, 2, {opacity:1}, 'elements+=' + diff);
       }
     );
-    importFunction('protostar', sky);
     elementsText(1);
+    setTimeout(function() {
+      importFunction('protostar', sky);
+    }, 2000);
   }
 
   init();
