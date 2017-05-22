@@ -55,6 +55,11 @@ html {
   color: #DFC831;
 }
 
+/* line 78, ../sass/partials/_base.scss */
+.black {
+  color: black;
+}
+
 /* line 1, ../sass/partials/_intro.scss */
 .intro {
   position: absolute;
@@ -275,9 +280,24 @@ html {
   left: 4.45%;
   color: #0D1635;
   font-family: ConcourseT6;
-  font-size: 20px;
+  font-size: 24px;
+  opacity: 0;
   letter-spacing: 0.1px;
   opacity: 0;
+  margin-bottom: 20px;
+}
+/* line 21, ../sass/partials/_star.scss */
+.star-explanation span {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+/* line 24, ../sass/partials/_star.scss */
+.star-explanation span:first-child {
+  padding-left: 15px;
+}
+/* line 27, ../sass/partials/_star.scss */
+.star-explanation span:last-child {
+  padding-right: 15px;
 }
 
 /* line 14, ../sass/styles.scss */

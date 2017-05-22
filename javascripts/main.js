@@ -42,7 +42,6 @@ $(document).ready(function() {
     { func: oneStar, argument: importSVG},
     // { func: starryNight},
     { func: centralStarStart, argument: importSVG },
-    { func: centralStarInitiate},
     { func: centralStarSupernova},
     { func: centralStarOne},
     { func: centralStarSwitch, argument: [importSVG, 'star-start', 'star-outer-collapse']}

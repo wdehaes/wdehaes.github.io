@@ -13,7 +13,19 @@
   left: 4.45%; 
   color: $blue;
   font-family: ConcourseT6;
-  font-size: 20px;
+  font-size: 24px;
+  opacity: 0;
   letter-spacing: 0.1px;
   opacity: 0;
+  margin-bottom: 20px;
+  span {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    &:first-child {
+      padding-left: 15px;
+    }
+    &:last-child {
+      padding-right: 15px;
+    }
+  }
 }

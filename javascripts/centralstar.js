@@ -24,21 +24,23 @@ function centralStarStart(importFunction) {
                       .to(sky, 1, {opacity: 1});
   }
 
+  function centralStarTextInitiate() {
+    var sky = $('#elem-sky');
+    var explanation = $('<div class="star-explanation"></div>');
+    centralStarTextChange(0, explanation);
+    sky.append(explanation);
+  }
+
   function init() {
     sky = $('#elem-sky');
     emptyCanvas();
-    importFunction('star-start', sky, starStart);
+    setTimeout(function () {importFunction('star-start', sky, starStart);}, 1500);
+    setTimeout(function () {centralStarTextInitiate();}, 2500);
   }
 
   init();
 }
 
-function centralStarInitiate() {
-  var sky = $('#elem-sky');
-  var explanation = $('<div class="star-explanation"></div>');
-  centralStarTextChange(0, explanation);
-  sky.append(explanation);
-}
 
 function centralStarSupernova() {
   var explanation = $('.star-explanation');
@@ -62,13 +64,14 @@ function centralStarOne() {
  
 function centralStarTextChange(n, target) {
   var textArray = [
-    '<p>A star’s external <span class="oker">gravity</span></p><p>and internal core <span class="oker">energy</span> put pressure on one another</p>',
-    '<p>resulting in a supernova</p><p>and one of <span class="oker">two</span> endothermic processes</p>',
+    '<p>A star’s external <span class="oker">gravity</span></p>&#13;<p>and internal core <span class="oker">energy</span> put pressure on one another</p>',
+    '<p>resulting in a supernova</p>&#13;<p>and one of <span class="oker">two</span> endothermic processes</p>',
     '<p><span class="oker">one</span> during a massive explosion</p>'
     ];
     target.empty();
     target.append(textArray[n]);
-    TweenLite.to(target, 2, {opacity: 1});
+    centralStarText(target);
+    // TweenLite.to(target, 2, {opacity: 1});
 }
 
 function centralStarSwitch(argument) {

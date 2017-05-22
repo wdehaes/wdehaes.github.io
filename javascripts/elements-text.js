@@ -31,3 +31,29 @@ function elementsText(number, hideDuration) {
       .to(elem, 1, { opacity: 1});
   }
 }
+
+function centralStarText(target, hideDuration) {
+  var letters, tl;
+  if (hideDuration === undefined) {
+    hideDuration = 0.5;
+  }
+  tl = new TimelineLite();
+  
+  if(target.length > 0) {
+    $(target).lettering();
+    letters = target.children().toArray();
+    tl
+      .to(target, 1, { opacity: 1})
+      .staggerTo(letters, 0.2, {
+        background: '#FFEA00',
+        color: '#0D1635'
+      }, 0.025);
+
+    var elem = $('.elem-section');
+    tl = new TimelineLite();
+    $(elem).lettering();
+    letters = $('.elem span').toArray();
+    tl
+      .to(elem, 1, { opacity: 1});
+  }
+}
