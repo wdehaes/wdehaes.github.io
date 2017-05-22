@@ -57,7 +57,7 @@ function elementsCreation(importFunction) {
     );
     elementsText(1);
     setTimeout(function() {
-      importFunction('protostar', sky);
+      importFunction('protostar-small', sky);
     }, 2000);
   }
 

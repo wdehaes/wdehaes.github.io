@@ -18,10 +18,10 @@ function centralStarStart(importFunction) {
   }
 
   function emptyCanvas() {
-    sky.empty();
-    sky.css({
-      background: 'white'
-    });
+    var stars = sky.find('*');
+    new TweenMax.staggerTo(stars, 2, {opacity: 0, autoAlpha: 0}, 0);
+    new TimelineLite().to(sky, 1, { background: 'white', opacity: 0})
+                      .to(sky, 1, {opacity: 1});
   }
 
   function init() {

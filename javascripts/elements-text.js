@@ -11,6 +11,7 @@ function elementsText(number, hideDuration) {
   if (number > 1) {
     hideElementsText(number-1);
   }
+  
   var elemText = $('.elements-explanation.el-ex-' + number);
   if(elemText.length > 0) {
     $(elemText).lettering();

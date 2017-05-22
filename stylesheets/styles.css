@@ -279,3 +279,16 @@ html {
   letter-spacing: 0.1px;
   opacity: 0;
 }
+
+/* line 14, ../sass/styles.scss */
+.center-div {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 4px;
+  height: 4px;
+  border-radius: 2px;
+  background: red;
+  z-index: 500;
+}

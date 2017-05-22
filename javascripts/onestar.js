@@ -3,7 +3,7 @@ function oneStar(importFunction) {
   var sky = $('#elem-sky');
   var scale = 6.3;
   var SVGWidth = 9;
-  var star, bg, skyWidth, skyHeight, tl_one, tl_two, starCenterX, starCenterY, boundingRectProtostar, boundingRectSVG, radius, protostarCenterY, protostarCenterX;
+  var star, bg, skyWidth, skyHeight, tl_one, tl_two, starCenterX, starCenterY, boundingRectProtostar, boundingRectSVG, radius;//, protostarCenterY, protostarCenterX;
 
   // Move 1 element to the protostar
   function moveElementToCenter(element) {
@@ -12,16 +12,16 @@ function oneStar(importFunction) {
     var nucleus = atomicNuclei.sort(function() { return 0.5 - Math.random();}).pop();
     var bgColor = nucleus.width > 0.04 ? "#FF0000" : "white";
     var elementWidth = nucleus.width * radius;
-    var elementLeft = protostarCenterX + radius * parseFloat(nucleus.xPos);
-    var elementTop = protostarCenterY + radius * parseFloat(nucleus.yPos);
+    var elementLeft = skyWidth/2 + radius * parseFloat(nucleus.xPos);
+    var elementTop = skyHeight/2 + radius * parseFloat(nucleus.yPos);
     tl_two.to(elementText, 1, { opacity: 0, autoAlpha: 0}, "moveElementAwayFromCenter+=2")
           .to(elementBackground, 2, {css: {background: bgColor}}, "moveElementAwayFromCenter+=2")
           .to(element, 2, {css: {width: elementWidth, height: elementWidth, top: elementTop, left: elementLeft}}, "moveElementAwayFromCenter+=2");
   }
 
   function moveElementAwayFromCenter(element) {
-    var diffX = (element.offsetLeft - protostarCenterX);
-    var diffY = (element.offsetTop - protostarCenterY);
+    var diffX = (element.offsetLeft - skyWidth/2);
+    var diffY = (element.offsetTop - skyHeight/2);
     var distX = 0.10 * (skyWidth - Math.abs(diffX));
     var distY = 0.10 * (skyHeight - Math.abs(diffY));
     var topSign, leftSign;
@@ -34,6 +34,7 @@ function oneStar(importFunction) {
       leftSign = "-=";
     } else {
       leftSign = "+=";
+
     }
     tl_two.to(element, 3, {css: {top: topSign + distY + "px", left: leftSign + distX + "px"}}, "moveElementAwayFromCenter");
 
@@ -47,20 +48,33 @@ function oneStar(importFunction) {
     });
     elementsText(1);
   }
-
+  
   function determineCoordinates() {
     boundingRectProtostar = bg[0].getBoundingClientRect();
-    boundingRectSVG = star[0].getBoundingClientRect();
-    var SVGCenterX = boundingRectSVG.left + boundingRectSVG.width/2;
-    var SVGCenterY = boundingRectSVG.top + boundingRectSVG.height/2;
-    starCenterX = boundingRectProtostar.left + boundingRectProtostar.width/2;
-    starCenterY = boundingRectProtostar.top + boundingRectProtostar.height/2;
-    var distX = (SVGCenterX - starCenterX) * scale;
-    var distY = (SVGCenterY - starCenterY) * scale;
     radius = boundingRectProtostar.width/2 * scale;
-    protostarCenterY = SVGCenterY - distY;
-    protostarCenterX = SVGCenterX - distX;
+    // protostarCenterY = skyWidth/2//SVGCenterY - distY;
+    // console.log(protostarCenterY)
+    // protostarCenterX = skyHeight/2//SVGCenterX - distX;
+    // console.log(protostarCenterX)
+    // console.log(radius)
   }
+
+  // function determineCoordinates() {
+  //   boundingRectProtostar = bg[0].getBoundingClientRect();
+  //   boundingRectSVG = star[0].getBoundingClientRect();
+  //   var SVGCenterX = star.position().left + star.width()/2;
+  //   var SVGCenterY = star.position().top + star.height()/2;
+  //   starCenterX = bg.position().left + bg.width()/2;
+  //   starCenterY = bg.position().top + bg.height()/2;
+  //   var distX = (SVGCenterX - starCenterX) * scale;
+  //   var distY = (SVGCenterY - starCenterY) * scale;
+  //   radius = bg.width()/2 * scale;
+  //   protostarCenterY = starCenterY//SVGCenterY - distY;
+  //   console.log(protostarCenterY)
+  //   protostarCenterX = starCenterX//SVGCenterX - distX;
+  //   console.log(protostarCenterX)
+  //   debugger
+  // }
 
   function init() {
     star = $('.protostar');

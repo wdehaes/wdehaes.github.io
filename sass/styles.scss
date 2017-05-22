@@ -9,4 +9,16 @@
 @import "partials/intro";
 @import "partials/elements-section";
 @import "partials/stars-section";
-@import "partials/star"
+@import "partials/star";
+
+.center-div {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 4px;
+	height: 4px;
+	border-radius: 2px;
+	background: red;
+	z-index: 500;
+}
