@@ -36,7 +36,7 @@ function elementsCreation(importFunction) {
       });
       $(txt).css({
         "font-size": Math.round(parseFloat(elementCoord.width) * skyWidth / 275),
-        "font-family": "ConcourseT6"
+        "font-family": "ConcourseT6, sans-serif"
       });
       $(element).append(bg);
       $(element).append(txt);

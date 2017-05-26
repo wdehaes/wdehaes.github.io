@@ -1,14 +1,14 @@
 @font-face {
   font-family: ConcourseT7;
-  src: url("/fonts/Concourse/Concourse T7 Regular.otf");
+  src: url("/fonts/concourse/Concourse T7 Regular.otf");
 }
 @font-face {
   font-family: ConcourseC7;
-  src: url("/fonts/Concourse/Concourse C7 Regular.otf");
+  src: url("/fonts/concourse/Concourse C7 Regular.otf");
 }
 @font-face {
   font-family: ConcourseT6;
-  src: url("/fonts/Concourse/Concourse T6 Regular.otf");
+  src: url("/fonts/concourse/Concourse T6 Regular.otf");
 }
 @font-face {
   font-family: "Lucida Grande";
@@ -19,21 +19,17 @@
   src: url("/fonts/lucida_grande/Lucida Grande Bold.ttf") format("truetype");
   font-weight: bold;
 }
-@font-face {
-  font-family: "Concourse";
-  src: "/fonts";
-}
-/* line 52, ../sass/partials/_base.scss */
+/* line 49, ../sass/partials/_base.scss */
 p {
   margin: 0 0 10px;
 }
 
-/* line 56, ../sass/partials/_base.scss */
+/* line 53, ../sass/partials/_base.scss */
 html {
   background-color: #0D1635;
 }
 
-/* line 59, ../sass/partials/_base.scss */
+/* line 56, ../sass/partials/_base.scss */
 .section {
   font-family: sans-serif;
   font-size: 13px;
@@ -45,17 +41,17 @@ html {
   background-color: #0D1635;
 }
 
-/* line 70, ../sass/partials/_base.scss */
+/* line 67, ../sass/partials/_base.scss */
 .yellow {
   color: #FFEA00;
 }
 
-/* line 74, ../sass/partials/_base.scss */
+/* line 71, ../sass/partials/_base.scss */
 .oker {
   color: #DFC831;
 }
 
-/* line 78, ../sass/partials/_base.scss */
+/* line 75, ../sass/partials/_base.scss */
 .black {
   color: black;
 }
@@ -76,7 +72,7 @@ html {
 /* line 13, ../sass/partials/_intro.scss */
 .intro__first {
   text-transform: uppercase;
-  font-family: ConcourseC7;
+  font-family: ConcourseC7, sans-serif;
   font-size: 28px;
 }
 
@@ -89,7 +85,7 @@ html {
 
 /* line 25, ../sass/partials/_intro.scss */
 .start-top__first {
-  font-family: ConcourseT6;
+  font-family: ConcourseT6, sans-serif;
   font-size: 48px;
   letter-spacing: 0.18px;
   opacity: 0;
@@ -98,7 +94,7 @@ html {
 
 /* line 33, ../sass/partials/_intro.scss */
 .start-top__second {
-  font-family: "Lucida Grande";
+  font-family: "Lucida Grande", sans-serif;
   font-weight: bold;
   letter-spacing: 0.1px;
   opacity: 0;
@@ -146,7 +142,7 @@ html {
 /* line 72, ../sass/partials/_intro.scss */
 .start-bottom__element {
   font-size: 36px;
-  font-family: "Lucida Grande";
+  font-family: "Lucida Grande", sans-serif;
   font-weight: bold;
 }
 /* line 77, ../sass/partials/_intro.scss */
@@ -160,7 +156,7 @@ html {
   display: block;
   left: 44%;
   top: 60%;
-  font-family: ConcourseT6;
+  font-family: ConcourseT6, sans-serif;
   font-size: 24px;
   letter-spacing: 0.99px;
   transform: translate(-50%, -50%);

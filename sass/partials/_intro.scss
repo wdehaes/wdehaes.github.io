@@ -12,7 +12,7 @@
 
 .intro__first {
   text-transform: uppercase;
-  font-family: ConcourseC7;
+  font-family: ConcourseC7, sans-serif;
   font-size: 28px;
 }
 
@@ -23,7 +23,7 @@
 }
 
 .start-top__first {
-  font-family: ConcourseT6;
+  font-family: ConcourseT6, sans-serif;
   font-size: 48px;
   letter-spacing: 0.18px;
   opacity: 0;
@@ -31,7 +31,7 @@
 }
 
 .start-top__second {
-  font-family: "Lucida Grande";
+  font-family: "Lucida Grande", sans-serif;
   font-weight: bold;
   letter-spacing: 0.1px;
   opacity: 0;
@@ -71,7 +71,7 @@
 
 .start-bottom__element {
   font-size: 36px;
-  font-family: "Lucida Grande";
+  font-family: "Lucida Grande", sans-serif;
   font-weight: bold;
 
   .percent {
@@ -84,7 +84,7 @@
   display: block;
   left: 44%;
   top: 60%;
-  font-family: ConcourseT6;
+  font-family: ConcourseT6, sans-serif;
   font-size: 24px;
   letter-spacing: 0.99px;
   transform: translate(-50%, -50%);
