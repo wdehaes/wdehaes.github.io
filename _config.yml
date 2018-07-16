@@ -20,7 +20,7 @@ title                    : "Will"
 title_separator          : "-"
 name                     : "Willem Dehaes"
 description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "willem.live" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "wdehaes/wdehaes.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -105,8 +105,8 @@ author:
   bio              : "Dual Degree MS student at Columbia University, NY"
   location         : "New York"
   email            : "willemdehaes@gmail.com"
-  uri              :
-  home             : # null (default), "absolute or relative url to link to author home"
+  uri              : "/about"
+  home             : "/about" # null (default), "absolute or relative url to link to author home"
   bitbucket        :
   codepen          :
   dribbble         :
