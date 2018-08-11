@@ -2,7 +2,7 @@
 layout: single
 title:  "Sharks"
 date: 2018-08-05 19:02:11 -0400
-categories: personal nyc writing
+categories: personal writing
 ---
 
 *As I mentioned in my post on my college applications, I am posting the writing samples from my application to Columbia University. This is the third of three (standalone) pieces*
