@@ -5,8 +5,6 @@ date: 2019-01-06 09:57:43 +0100
 categories: stories
 ---
 
-*This article was originally published [here](http://theink.nyc/second-act-outside-court/) on Oct. 20, 2018 .*
-
 Whether it’s on stage or in the third-floor corridor of King’s County Criminal Courthouse, acting is in Garly Pluviose’s blood. He has gotten better at overcoming stage fright, he says, but still feels a bout of shyness every time he goes up to someone coming through the set of large light blue doors at the end of the hallway. His timid smile, soft-spoken voice and colorful outfit are a sharp contrast to the mugshot in his arrest records.
 
 Pluviose, 23, works as a peer recruiter for MOVEUP, a study led by Columbia psychologist Katherine Elkington that is testing new approaches to link young adults involved in the criminal justice system to healthcare providers and reduce risky sexual behavior and substance abuse.
@@ -34,3 +32,5 @@ On the weekend, he works as a server in a restaurant, but he considers his work 
 In the future, Pluviose said he would like to be more involved in the other aspects of the study but he understands that right now, he is needed most as a peer recruiter in the courthouse. He estimated that since he started in October of last year, he has recruited between 80 and 90 individuals for the study. Elkington, the study’s director, said the research staff is trying to find about 225 people to go through the whole MOVEUP program, as well as a similarly sized control group. Over the next two years, the larger follow-up study aims to provide the quantitative data needed to test the efficacy of MOVEUP’s approach, so it can be implemented by healthcare service providers catering to young adults involved in the criminal justice system.
 
 Pluviose does not have to see statistics to be convinced. For him, his own improved decision-making is ample proof of the effectiveness of MOVEUP’s approach. “Brooklyn Justice Initiatives gave me a second chance to be free,” he said, “but this study gave me a second chance to live.” Ferguson said he has something to look forward to, because she is writing a role into her next play designed specifically for him. In the meantime, he will continue to sit outside the light blue doors on the third floor of the courthouse building trying to convince his peers to join in the study that he said helped him turn his life around.
+
+*This article was originally published [here](http://theink.nyc/second-act-outside-court/) on Oct. 20, 2018 .*

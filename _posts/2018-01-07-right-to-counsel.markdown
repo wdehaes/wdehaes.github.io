@@ -5,8 +5,6 @@ date: 2019-01-07 17:15:24 +0100
 categories: stories
 ---
 
-*This article was originally published [here](http://theink.nyc/educating-tenants-right-counsel/) on Nov. 2, 2018 .*
-
 Ciara Ward was doing her laundry in Bedford-Stuyvesant on a recent Sunday afternoon. Ward, who lives around the corner from the laundromat, is fighting an eviction case brought by her landlord. Under a law passed last year, she has the right to free legal representation in housing court, but Ward said she only learned about that right when she went to housing court for the first time after receiving the eviction notice. “It would have been nice to have known about it beforehand,” she said. “It would have been nice to be able to talk to a lawyer before going to court.”
 
 Like Ward, few people who live in the neighborhood have heard about the new law, known as Right to Counsel. And like her, many of them have faced eviction. In October, the Association for Neighborhood & Housing Development released a detailed map of all evictions that took place in New York City in 2017. In most blocks of this rapidly gentrifying part of Bedford-Stuyvesant, at least one tenant was evicted last year. That’s why 11216 was one of Brooklyn’s three zip codes chosen for representation when Right to Counsel went into effect last year.
@@ -34,3 +32,5 @@ On Sept 12, Levine introduced new legislation that includes funding for informat
 When asked about the concerns of organizations like the Flatbush Tenant Coalition struggling with limited resources, Levine said he wanted part of the budget to go towards “proactive tenant organizing work to spread this message, going door to door to tenants and vulnerable neighborhoods.” At this point, it is unclear what the exact budget will be, and how it will be allocated.
 
 Zulack said that there is no single best way to inform tenants about initiatives like the Right to Counsel. She said the only way is to saturate people’s environment with information.
+
+*This article was originally published [here](http://theink.nyc/educating-tenants-right-counsel/) on Nov. 2, 2018 .*

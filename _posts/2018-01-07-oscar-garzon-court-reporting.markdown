@@ -5,8 +5,6 @@ date: 2019-01-07 16:34:30 +0100
 categories: stories
 ---
 
-*This article was originally published [here](http://theink.nyc/law-order-road-225-words-per-minute/) on Oct. 5, 2018 .*
-
 In 2005, after working for 15 years as a court reporter at the Bronx Criminal Court, Oscar Garzon began teaching others the art of documenting what judges, lawyers, defendants and witnesses say during court proceedings. He now heads the associate degree program in court reporting at Plaza College in Queens. Garzon, 58, has decorated his office with stenotype machines, which look like old-fashioned typewriters with only 22 keys. He has trained thousands of students on these machines, helping them reach 225 words per minute, the typing speed required for graduation. In his free time, Garzon, who performed music to pay tuition for court reporting school 35 years ago, sings salsa, merengue and other Latin music.
 
 {% include figure image_path="/assets/images/oscar-garzon.jpg" alt="Oscar Garzon holding stenotype machine at Plaza College, Qeens" caption="Oscar Garzon holding up a stenotype machine, a court reporter's most important tool" %}
@@ -41,5 +39,5 @@ Working as a court reporter, you get to see … people who fall into the system 
 
 If we asked for anything easier, it would be for people to be quiet while everything is going on. … You have clerks yelling, … stamping papers because the case is finished, … court officers yelling out to the crowd. … Everyone's just hollering, hollering. We have to learn to tune that out because there's really no quieting people down. … If it was a good moving courtroom, it would have to be like a church. Everyone's quiet, just the attorneys speak, and that doesn't happen. … It's not realistic, not in a court, not in the court system.
 
-
+*This article was originally published [here](http://theink.nyc/law-order-road-225-words-per-minute/) on Oct. 5, 2018 .*
 
