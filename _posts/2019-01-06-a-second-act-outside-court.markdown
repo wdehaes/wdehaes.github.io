@@ -2,7 +2,7 @@
 layout: single
 title:  "A Second Act Outside Court"
 date: 2019-01-06 09:57:43 +0100
-categories: columbia nyc
+categories: stories
 ---
 
 *This article was originally published [here](http://theink.nyc/second-act-outside-court/) on Oct. 20, 2018 .*

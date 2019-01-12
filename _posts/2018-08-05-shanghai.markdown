@@ -2,7 +2,7 @@
 layout: single
 title:  "Shanghai: an umbrella story"
 date: 2018-08-05 18:54:27 -0400
-categories: personal writing
+categories: personal
 ---
 
 *As I mentioned in my post on my college applications, I am posting the writing samples from my application to Columbia University. This is the first of three (standalone) pieces*

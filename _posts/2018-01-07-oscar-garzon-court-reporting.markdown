@@ -2,7 +2,7 @@
 layout: single
 title:  "LAW & ORDER: The Road to 225 Words per Minute"
 date: 2019-01-07 16:34:30 +0100
-categories: columbia nyc
+categories: stories
 ---
 
 *This article was originally published [here](http://theink.nyc/law-order-road-225-words-per-minute/) on Oct. 5, 2018 .*

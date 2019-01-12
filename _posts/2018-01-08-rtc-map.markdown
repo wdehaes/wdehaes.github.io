@@ -2,7 +2,7 @@
 layout: single
 title:  "Residential Evictions and Right To Counsel"
 date: 2019-01-08 10:15:00 -0500
-categories: data columbia
+categories: data
 ---
 <style>
 iframe {
@@ -12,9 +12,7 @@ iframe {
 </style>
 As a final project for our Reporting class in the Fall 2018 semester, we did a series of stories on the rollout of the Right To Counsel, a legislative initiative to provide free legal counsel to any tenant in New York City facing eviction. Together with Aaron Brezel, I built an interactive map to show statistics per neighborhood, which accompanied the series.
 
-
 <iframe src="https://willemdehaes.bitbucket.io/" width="100%" height="600px"></iframe>
-
 
 The article, including the map, was originally published [here](http://theink.nyc/whats-gone-right-wrong-right-counsel/) on Nov. 9, 2018 . The source code can be found [here](https://github.com/wdehaes/marshalEvictionData).
 

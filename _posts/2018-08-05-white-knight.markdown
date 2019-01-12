@@ -2,7 +2,7 @@
 layout: single
 title:  "The White Knight"
 date: 2018-08-05 18:56:53 -0400
-categories: personal writing
+categories: personal
 ---
 
 *As I mentioned in my post on my college applications, I am posting the writing samples from my application to Columbia University. This is the second of three (standalone) pieces*

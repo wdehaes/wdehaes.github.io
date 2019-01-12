@@ -2,7 +2,7 @@
 layout: single
 title:  "Educating Tenants on their Right to Counsel"
 date: 2019-01-07 17:15:24 +0100
-categories: columbia nyc
+categories: stories
 ---
 
 *This article was originally published [here](http://theink.nyc/educating-tenants-right-counsel/) on Nov. 2, 2018 .*

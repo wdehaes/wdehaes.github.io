@@ -2,7 +2,7 @@
 layout: single
 title:  "I want to go to Columbia"
 date: 2018-08-05 18:44:51 -0400
-categories: personal nyc
+categories: personal
 ---
 
 *I remember my application to KU Leuven, 8 years ago. The previous night we had held a goodbye party for a friend who was going to study in London. It had been a rather successful party. I was tired and slightly hungover, so I was relieved that the application process consisted of little more than showing my high school diploma, picking a field of study and having a (very unflattering) picture taken.*

@@ -2,7 +2,7 @@
 layout: single
 title:  "Hello World!"
 date:   2018-07-16 10:53:41 -0400
-categories: personal nyc
+category: personal
 ---
 
 Hi! Over the past years I have blogged about my adventures while studying abroad, written articles about software development and even put in writing a handful of short stories. Some of my work (`work` sounds a bit pretentious, I know, but the only alternative I could think of was `oeuvre`, so, you know...) can be found spread out over the web. It's a bit all over the place, though, and other pieces have never published or require some serious rewriting. On this website, I want to publish some of what I have written over the years, or at least the pieces tha are (hopefully) still relevant and/or entertaining. No-one wants to read pimply 15-year-old Will's cringe-worthy romantic contemplations.
