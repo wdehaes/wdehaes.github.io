@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Residential Evictions and Right To Counsel"
-date: 2019-01-08 10:15:00 -0500
+date: 2019-01-14 17:55:14 -0500
 categories: data
 ---
 <style>
