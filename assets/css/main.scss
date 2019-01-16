@@ -3,7 +3,101 @@
 ---
 @charset "utf-8";
 
+@font-face {
+  font-family: "Untitled Sans";
+  src: url("../fonts/UntitledSansWeb-Light.eot");
+  src: url("../fonts/UntitledSansWeb-Light.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/UntitledSansWeb-Light.woff2") format("woff2"),
+    url("../fonts/UntitledSansWeb-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Untitled Sans";
+  src: url("../fonts/UntitledSansWeb-Bold.eot");
+  src: url("../fonts/UntitledSansWeb-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/UntitledSansWeb-Bold.woff2") format("woff2"),
+    url("../fonts/UntitledSansWeb-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
 /* Theme overrides */
-$paragraph-indent: true;
+$paragraph-indent: false;
 $link-color: #494e52;
+$untitled-sans: 'Untitled Sans';
+$sans-serif: $untitled-sans;
+$global-font-family: $sans-serif !default;
+$header-font-family: $sans-serif !default;
+$header-font-family: $untitled-sans !default;
+$text-color: black !default;
+$link-color: $text-color !default;
+$link-color-hover: $text-color !default;
+$link-color-visited: $text-color !default;
+$masthead-link-color: $text-color !default;
+$masthead-link-color-hover: $text-color !default;
+$navicon-link-color-hover: $text-color !default;
+
 @import "minimal-mistakes";
+
+html {
+  font-size: 16px;
+
+  @include breakpoint($medium) {
+    font-size: 16px;
+  }
+
+  @include breakpoint($large) {
+    font-size: 16px;
+  }
+
+  @include breakpoint($x-large) {
+    font-size: 16px;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: $text-color !important;
+
+}
+
+p {
+  letter-spacing: .01em;
+  line-height: 1.75em;
+}
+.archive__item-excerpt {
+  font-size: $type-size-5;
+}
+
+.page__meta {
+  font-size: $type-size-6 !important;
+  margin-bottom: 10px;
+}
+
+.author__name {
+  font-size: $type-size-3 !important;
+  margin-top: 30px;
+}
+
+.author__bio {
+  font-size: $type-size-5 !important;
+}
+
+.archive__item-title {
+  margin-bottom: 10px;
+}
+.archive__subtitle {
+  padding-bottom: 1.75em;
+  color: $text-color;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-size: $type-size-5 !important;
+}
+
+.page__title {
+  margin-bottom: 1em;
+  margin-top: 1em;
+}

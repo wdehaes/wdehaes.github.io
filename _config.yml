@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Will"
+title                    :
 title_separator          : "-"
 name                     : "Willem Dehaes"
 description              : "An amazing website."
@@ -101,8 +101,8 @@ analytics:
 # Site Author
 author:
   name             : "Willem Dehaes"
-  avatar           : "/assets/images/profile.jpg"
-  bio              : "Dual Degree MS student at Columbia University, NY"
+  avatar           :
+  bio              : "data journalist,\nsoftware engineer,\nwriter."
   location         : "New York"
   email            : "willemdehaes@gmail.com"
   uri              : "/about"
@@ -264,7 +264,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: false
       share: true
