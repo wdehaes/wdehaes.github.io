@@ -2,7 +2,7 @@
 layout: single
 title:  "A Second Act Outside Court"
 date: 2019-01-06 09:57:43 +0100
-categories: stories
+categories: reporting
 ---
 
 Whether it’s on stage or in the third-floor corridor of King’s County Criminal Courthouse, acting is in Garly Pluviose’s blood. He has gotten better at overcoming stage fright, he says, but still feels a bout of shyness every time he goes up to someone coming through the set of large light blue doors at the end of the hallway. His timid smile, soft-spoken voice and colorful outfit are a sharp contrast to the mugshot in his arrest records.

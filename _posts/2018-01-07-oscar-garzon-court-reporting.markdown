@@ -2,7 +2,7 @@
 layout: single
 title:  "LAW & ORDER: The Road to 225 Words per Minute"
 date: 2019-01-07 16:34:30 +0100
-categories: stories
+categories: reporting
 ---
 
 In 2005, after working for 15 years as a court reporter at the Bronx Criminal Court, Oscar Garzon began teaching others the art of documenting what judges, lawyers, defendants and witnesses say during court proceedings. He now heads the associate degree program in court reporting at Plaza College in Queens. Garzon, 58, has decorated his office with stenotype machines, which look like old-fashioned typewriters with only 22 keys. He has trained thousands of students on these machines, helping them reach 225 words per minute, the typing speed required for graduation. In his free time, Garzon, who performed music to pay tuition for court reporting school 35 years ago, sings salsa, merengue and other Latin music.

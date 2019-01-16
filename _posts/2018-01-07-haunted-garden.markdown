@@ -2,7 +2,7 @@
 layout: single
 title:  "Haunted Garden"
 date: 2019-01-07 17:22:07 +0100
-categories: stories
+categories: reporting
 ---
 
 A dinosaur comes running around the corner of South 2nd Street, followed by Super Mario and a bespectacled aviator. Soon, two dozen trick-or-treaters have gathered in front of the garden gate. A few minutes later, just after 3 p.m., ghoulish music starts to play, the gate is unlocked, and the pack of children rushes through.

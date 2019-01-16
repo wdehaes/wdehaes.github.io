@@ -32,12 +32,12 @@ $global-font-family: $sans-serif !default;
 $header-font-family: $sans-serif !default;
 $header-font-family: $untitled-sans !default;
 $text-color: black !default;
-$link-color: $text-color !default;
-$link-color-hover: $text-color !default;
-$link-color-visited: $text-color !default;
-$masthead-link-color: $text-color !default;
-$masthead-link-color-hover: $text-color !default;
-$navicon-link-color-hover: $text-color !default;
+$link-color: $text-color;
+$link-color-hover: $text-color;
+$link-color-visited: $text-color;
+$masthead-link-color: $text-color;
+$masthead-link-color-hover: $text-color;
+$navicon-link-color-hover: $text-color;
 
 @import "minimal-mistakes";
 
@@ -81,8 +81,9 @@ p {
   margin-top: 30px;
 }
 
-.author__bio {
+pre {
   font-size: $type-size-5 !important;
+  font-family: $global-font-family;
 }
 
 .archive__item-title {
@@ -103,5 +104,9 @@ p {
 }
 
 .back-to-top {
-  margin-top: 10px;
+  margin-top: 15px;
+}
+
+.sidebar {
+ opacity: 100%;
 }

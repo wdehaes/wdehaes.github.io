@@ -2,7 +2,7 @@
 layout: single
 title:  "Educating Tenants on their Right to Counsel"
 date: 2019-01-07 17:15:24 +0100
-categories: stories
+categories: reporting
 ---
 
 Ciara Ward was doing her laundry in Bedford-Stuyvesant on a recent Sunday afternoon. Ward, who lives around the corner from the laundromat, is fighting an eviction case brought by her landlord. Under a law passed last year, she has the right to free legal representation in housing court, but Ward said she only learned about that right when she went to housing court for the first time after receiving the eviction notice. “It would have been nice to have known about it beforehand,” she said. “It would have been nice to be able to talk to a lawyer before going to court.”

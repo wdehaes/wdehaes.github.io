@@ -102,7 +102,7 @@ analytics:
 author:
   name             : "Willem Dehaes"
   avatar           :
-  bio              : "data journalist,\nsoftware engineer,\nwriter."
+  bio              : "<pre>data journalist,\nsoftware engineer,\nwriter.</pre>"
   location         : "New York"
   email            : "willemdehaes@gmail.com"
   uri              :

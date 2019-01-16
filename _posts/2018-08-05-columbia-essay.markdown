@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "I want to go to Columbia"
+title:  "Applying to Columbia"
 date: 2018-08-05 18:44:51 -0400
 categories: personal
 ---
