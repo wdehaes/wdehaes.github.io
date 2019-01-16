@@ -105,8 +105,8 @@ author:
   bio              : "data journalist,\nsoftware engineer,\nwriter."
   location         : "New York"
   email            : "willemdehaes@gmail.com"
-  uri              : "/about"
-  home             : "/about" # null (default), "absolute or relative url to link to author home"
+  uri              :
+  home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
   codepen          :
   dribbble         :
