@@ -4,13 +4,13 @@ title:
 permalink: /about/
 author_profile: true
 ---
+<br><br>
+
+![Willem Dehaes](/assets/images/will-bw.jpg)
 
 
+Hi! I'm Will. I am interested in the political and economic impact of technology. Currently, I am enrolled in the dual degree program at Columbia University for journalism and computer science.
 
+Before then, I worked as a software engineer at P&G, Data Camp and Cashforce in Belgium and New York. I also hold a masters and bachelors degree in finance and applied sciences from KU Leuven, Belgium.
 
-
-
-![image-left](/assets/images/profile-small.jpg){: .align-left}
-Hi! I am Will, I am a Belgian digital journalist in the dual degree program in journalism and computer science at Columbia University. I have an M.S. degree in business engineering from KU Leuven in Belgium and I have worked as a software developer prior to moving to New York. I am interested in data journalism, the tech industry and the political and economical impact of technology.
-
-Here's my [resume](/assets/files/Resume_Willem_Dehaes_Jul_18.pdf).
+Read more in my [resume](/assets/files/Resume_Willem_Dehaes_Jul_18.pdf){:target='_blank'}.
