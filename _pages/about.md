@@ -13,4 +13,4 @@ Hi! I'm Will. I am interested in the political and economic impact of technology
 
 Before then, I worked as a software engineer at P&G, Data Camp and Cashforce in Belgium and New York. I also hold a masters and bachelors degree in finance and applied sciences from KU Leuven, Belgium.
 
-Read more in my [resume](/assets/files/Resume_Willem_Dehaes_Jul_18.pdf){:target='_blank'}.
+Read more in my **[resume](/assets/files/Resume_Willem_Dehaes.pdf){:target='_blank'}**.
