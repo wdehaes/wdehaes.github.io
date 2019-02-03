@@ -5,8 +5,6 @@ date: 2018-08-05 18:56:53 -0400
 categories: personal
 ---
 
-## The White Knight
-
 The white knight looked around the long, unfamiliar hallway and pulled his surcoat straight. Standing in the bright neon lights reflecting on his blond hair and the bright coat-of-arms on his chest, he felt uneasy and out of place. Not for the first time he brought his left hand down to his belt, where his loyal sword hung by his side. The familiar feeling of the grip under his hand calmed him, but his weapon, that he had held so steadfast in countless mêlées and in the face of the greatest perils, seemed useless and powerless in this place. No enemy had ever entered the knight’s mighty white keep, but here he was on strange terrain, and he felt his heart beat in his chest.
 
 More than afraid, the white night felt unsure and confused. He had seen gruesome things and had stood eye in eye with fearsome warriors and deadly monsters. He was no stranger to seemingly invisible enemies and on more than one occasion he had taken cover from a rain of arrows that seemed to come out of nowhere. But here, in this place, in this giant keep where the sun shone brightly through the windows, there seemed to be no enemy lurking in the dark. And yet he had been told that all the white knights he saw running through the long hallway were busy fighting a desperate fight to the death, against the most cunning of enemies, an enemy who knew neither fear nor mercy.
