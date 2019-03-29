@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Origin of Higher Mass Elements"
-date: 2019-01-16 18:25:59 -0500
+date: 2019-01-03 18:25:59 -0500
 categories: data
 ---
 
