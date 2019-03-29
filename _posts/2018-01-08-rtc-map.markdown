@@ -15,4 +15,6 @@ We gathered eviction data from NYC Open Data, population data from the U.S. Cens
 The article, including the map, was originally published [here](http://theink.nyc/whats-gone-right-wrong-right-counsel/) on Nov. 9, 2018 . The source code can be found [here](https://github.com/wdehaes/marshalEvictionData).
 
 
+*Willem Dehaes*
+
 

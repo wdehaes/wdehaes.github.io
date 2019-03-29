@@ -16,3 +16,6 @@ How little did he know, our white knight, brave but ignorant, of what was going 
 Years past by and the white knight grew out of his surcoat, that ended up on a shelf, carefully folded along with his sword. The living room no longer was his keep but just a living room, and the white sofas no longer transformed into stone ramparts but remained white sofas. The fire-breathing dragons and ferocious barbarians disappeared from their lair under the coffee table and were replaced by exams, bills and newspapers.
 
 He got to know who that dying man was, who his grandfather was, through other people’s memories and through the clear influence of his genes in the white knight’s own self. When he opens his drawer and lays eyes upon his white surcoat, the memories folded alongside the coat re-enter his mind: the memories of his many battles, and of that vague dreamlike image of the hallway. He tries on the coat that he knows is way too small, and the grip of his sword is too short for the thin, long fingers that grew to look so much like his grandfather’s. And yet, holding it, he feels that familiar, unsure and powerless feeling, and he wonders if all those years have given him a more powerful weapon to face life than this old cardboard sword.
+
+
+*Willem Dehaes*

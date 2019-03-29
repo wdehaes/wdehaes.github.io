@@ -15,3 +15,6 @@ To give the students some insight into scouting, I prepared an interactive demon
 
 Proudly I watched my students work together to build impressively high and stable structures. There was definitely some engineering talent in the room, and it was great to see how some of the students who had been the most shy and insecure during English conversation were now leading their team in maximizing the architectural potential of their culinary resources.
 
+
+*Willem Dehaes*
+

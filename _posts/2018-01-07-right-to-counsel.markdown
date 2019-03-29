@@ -33,4 +33,7 @@ When asked about the concerns of organizations like the Flatbush Tenant Coalitio
 
 Zulack said that there is no single best way to inform tenants about initiatives like the Right to Counsel. She said the only way is to saturate people’s environment with information.
 
+
+*Willem Dehaes*
+
 *This article was originally published [here](http://theink.nyc/educating-tenants-right-counsel/) on Nov. 2, 2018 .*

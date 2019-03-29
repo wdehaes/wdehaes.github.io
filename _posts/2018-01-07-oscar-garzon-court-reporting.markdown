@@ -39,5 +39,8 @@ Working as a court reporter, you get to see … people who fall into the system 
 
 If we asked for anything easier, it would be for people to be quiet while everything is going on. … You have clerks yelling, … stamping papers because the case is finished, … court officers yelling out to the crowd. … Everyone's just hollering, hollering. We have to learn to tune that out because there's really no quieting people down. … If it was a good moving courtroom, it would have to be like a church. Everyone's quiet, just the attorneys speak, and that doesn't happen. … It's not realistic, not in a court, not in the court system.
 
+
+*Willem Dehaes*
+
 *This article was originally published [here](http://theink.nyc/law-order-road-225-words-per-minute/) on Oct. 5, 2018 .*
 
