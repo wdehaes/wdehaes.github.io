@@ -5,7 +5,7 @@ date: 2019-01-03 18:25:59 -0500
 categories: data
 ---
 
-This animation illustrates the origin of higher mass elements in the universe. **[Shruti Agrawal](https://shrutiagrawal.com/)** was responsible the design. It was built using jQuery and [GSAP](https://greensock.com/gsap), as well as [Wheel-indicator](http://promo.github.io/wheel-indicator/) to track user scrolling behavior.
+This animation illustrates the origin of higher mass elements in the universe. Designed by **[Shruti Agrawal](https://shrutiagrawal.com/)**. It was built using jQuery and [GSAP](https://greensock.com/gsap), as well as [Wheel-indicator](http://promo.github.io/wheel-indicator/) to track user scrolling behavior.
 
 The interactive webpage is available **[here](https://originofhighermasselements.netlify.com){:target='_blank'}**. The animation can be controlled through scrolling.
 
